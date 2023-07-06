@@ -1,0 +1,170 @@
+h1, h2, h3, h4, h5, h6{
+    font-family: fraunces;
+    font-weight: 700;
+}
+
+p, a{
+    font-family: barlow;
+    
+}
+#row{
+    margin: 0;
+}
+.border-contact{
+    border-radius: 15px;
+    background-color: #f5f5f5;
+    padding: 10px !important;
+}
+      
+
+.bg-nav{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.bg-mobile-nav{
+display: none;
+}
+.header-caption {
+    position: absolute;
+    z-index: 1;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.header-caption h2{
+    font-size: 3rem;
+    word-spacing: 12px;
+    font-family: fraunces;
+    font-weight: 700;
+    letter-spacing: 10px;
+    color:white;
+
+
+
+
+}
+.overlay-arrow {
+    position: relative;
+    z-index: 2;
+    margin-top: 6rem;
+}
+
+.section2-brand{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.section2-brand h3{
+    
+    font-size: 2rem;
+    font-family: fraunces;
+    font-weight: 700;
+
+}
+.section2-brand p{
+font-family: barlow;
+font-weight: 600px;
+
+}
+.section2-brand a{
+    font-family: fraunces;
+    font-weight: 900;
+    text-decoration: none !important;
+    color:hsl(212, 27%, 19%) ;
+    border-bottom: 8px solid rgba(254, 120, 103, 0.3);
+    display: inline-block;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    border-width: 10px;
+}
+
+.no-row{
+margin: 0 !important;
+}
+
+
+.cards{
+    margin-top: 50px;
+    padding: 50px;
+}
+.card{
+    border: none !important;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 1px;
+}
+.rounded-image-card{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.card-tit h5{
+    letter-spacing: 5px;
+    color: hsl(232, 10%, 55%);
+}
+.p-card{
+    color: hsl(210, 4%, 67%)!important;
+    }
+.card-body p{
+    color: hsl(213, 9%, 39%);
+}
+
+.graphic h1{
+    color:hsl(167, 40%, 24%) ;
+}
+.graphic p{
+    color:hsl(167, 40%, 24%) ;
+}
+
+.photography h1{
+    color:hsl(198, 62%, 26%);
+}
+.photography p{
+    color:hsl(198, 62%, 26%);
+}
+.footer-a a{
+text-decoration:none !important;
+color: hsl(167, 40%, 24%);
+padding: 0px 30px;
+}
+
+
+.footer-color{
+   color: hsl(167, 40%, 24%);
+}
+
+@media (max-width:1440px) {
+    .overlay-arrow {
+        margin-top: 9rem;
+}
+
+@media (max-width:1024px) {
+ 
+@media (max-width: 767px) {
+    .bg-mobile-nav{
+        display: block;
+    }
+    .bg-nav{
+        display: none;
+    }
+    .header-caption h2{
+        font-size: 3rem;
+    }
+    .header-caption {
+        top: 40%; /* Adjust the percentage value as needed */
+    }
+}
+}
+}
